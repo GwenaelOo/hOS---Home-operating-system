@@ -14,19 +14,19 @@ async function inithOS() {
     })
 
     app.get('/light', function (req, res) {
-        res.send("Status de lumières!\n" + JSON.stringify(status.Lights));
+        res.send("Dimmer Status!\n" + JSON.stringify(status.Lights));
     });
 
     app.get('/shutter', function (req, res) {
-        res.send("Status de volets!\n" + JSON.stringify(status.Shutters))
+        res.send("Shutter Status!\n" + JSON.stringify(status.Shutters))
     });
 
     app.get('/relay', function (req, res) {
-        res.send("Status de relays!\n" + JSON.stringify(status.Relays));
+        res.send("Relays Status!\n" + JSON.stringify(status.Relays));
     });
 
     app.listen(3000, function () {
-        console.log('Example app listening on port 3000!')
+        console.log('hOS app listening on port 3000!')
     })
 
 }
