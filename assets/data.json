@@ -1,0 +1,35 @@
+{
+    "Lights": {
+        "001" : {
+            "status" : "active"
+        },
+        "002" : {
+            "status" : "active"
+        },
+        "003" : {
+            "status" : "active"
+        }
+    },
+    "Shutters": {
+        "001" : {
+            "status" : "active"
+        },
+        "002" : {
+            "status" : "active"
+        },
+        "003" : {
+            "status" : "active"
+        }
+    },
+    "Relays": {
+        "001" : {
+            "status" : "active"
+        },
+        "002" : {
+            "status" : "active"
+        },
+        "003" : {
+            "status" : "active"
+        }
+    }
+}
