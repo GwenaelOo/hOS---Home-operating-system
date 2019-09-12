@@ -1,1 +1,1 @@
-{"Light":{"001":{"status":"ON"},"002":{"status":"ON"},"003":{"status":"ON"}},"Shutter":{"001":{"status":"ON"},"002":{"status":"OFF"},"003":{"status":"ON"}},"Relay":{"001":{"status":"OFF"},"002":{"status":"OFF"},"003":{"status":"ON"}}}
+{"Light":{"001":{"status":"ON"},"002":{"status":"ON"},"003":{"status":"ON"}},"Shutter":{"001":{"status":"ON"},"002":{"status":"OFF"},"003":{"status":"OFF"}},"Relay":{"001":{"status":"OFF"},"002":{"status":"OFF"},"003":{"status":"ON"}}}

@@ -14,23 +14,19 @@ async function inithOS() {
 
     app.get('/all', function (req, res) {
         console.log(status)
-        res.send("Status de l'installation!\n" + JSON.stringify(status))
+        res.send("Status de l'installation!!\n" + JSON.stringify(status))
     })
 
-    app.get('/light', function (req, res) {
-        res.send("Dimmer Status!\n" + JSON.stringify(status.Lights));
-    });
-
-    app.get('/light', function (req, res) {
-        res.send("Dimmer Status!\n" + JSON.stringify(status.Lights));
+    app.get('/light', async function (req, res) {
+        res.send("Dimmer Status!\n" + JSON.stringify(status.Light));
     });
 
     app.get('/shutter', function (req, res) {
-        res.send("Shutter Status!\n" + JSON.stringify(status.Shutters))
+        res.send("Shutter Status!\n" + JSON.stringify(status.Shutter))
     });
 
     app.get('/relay', function (req, res) {
-        res.send("Relays Status!\n" + JSON.stringify(status.Relays));
+        res.send("Relays Status!\n" + JSON.stringify(status.Relay));
     });
 
     app.post('/order/', async function (req, res) {
